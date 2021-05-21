@@ -1,0 +1,190 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+body{
+/*background-color: #000000;  use this too it looks beautiful*/ 
+background-image: url(main.jpg);
+background-repeat: inherit;
+}
+
+.sec-1{
+width: 100%;
+height: 600px;
+}
+
+nav{
+width: 100%;
+align-items: center; /*most important*/
+justify-content: space-between; /*most important*/
+display: flex;
+background-color: rgb(164, 41, 236);
+height: 100px;
+}
+
+.logo{
+width: 80px;
+height: 80px;
+border-radius: 50%;
+}
+
+nav ul li {
+font-size: 20px;
+display: inline-block;
+list-style: none;
+margin: 0px 30px; /* diff bw the element*/ 
+padding: 10px 10px;  
+background-color: white;
+border-radius: 30px;
+}
+
+nav ul li a:hover {
+color:hotpink;
+border-radius: 3px;
+padding: 2px;
+}
+
+.menu{
+margin-top: 3px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: black; 
+margin-left: 0px;
+}
+
+span{
+color:  rgb(164, 41, 236);
+}
+
+.profile{
+width:300px ;
+height: 300px;
+position: absolute;
+bottom: 250px;
+right: 100px;
+border-radius: 50%;
+border: 5px solid hotpink;
+}
+.text-h1{
+margin-top: 50px;
+margin-left: 260px;
+color: white;
+font-size: 50px;
+
+}
+    
+.text-p{
+    color:white;
+    font-size:30px;
+    font-family: 'Satisfy', cursive;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.text-h2{
+    margin-top: 30px;
+    margin-left: 500px;
+    color: white;
+
+    font-size: 50px;
+    bottom: 30px;
+}    
+
+.follow ,img{
+width: 50px;
+height: 50px;
+margin-left: 30px;
+padding: 5px 4px;
+margin-top:5px;
+float: left;
+}
+.connect{
+    margin-top: 30px;
+    width: 260px;
+    height: 100px;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 480px;
+}
+
+
+
+.head{
+    margin-left: 40%;
+    margin-top: 20px;
+    background-color: rgb(164, 41, 236);
+    width:130px;
+    padding-bottom: 20px;
+    border-radius: 50%;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+
+    
+}
+.about{
+    width: 700px;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    margin-left: 300px;
+    right: 28%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 20px 20px;
+    border-radius: 3px;
+    color: white;
+    
+}
+.head ,h2{
+    width: 150px;
+    font-family: 'Satisfy', cursive;
+
+}
+.skill ,h2{
+    margin-left: 250px;
+    font-family: 'Satisfy', cursive;
+    margin-top: 30px;
+    color: white;
+    width: 50%;
+}
+.project{
+    margin-top: 10px;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    margin-left: 250px;
+}
+.project,a{
+    text-decoration: none;
+    color: aqua;
+}
+.project , p{
+color: white;
+}
+.link{
+    
+    border-radius: 45%;
+    border: 5px  solid rgb(18, 160, 42);
+}
+.git{ 
+    border-radius: 50% ;
+    border: 5px  solid rgb(164, 41, 236);
+}
+.contact input,textarea ,button{
+border-radius: 10px;
+padding: 20px 20px;
+margin-top: 20px;
+margin-left: 550px;
+font-size: 20px;
+}
+button{
+    background-color: rgb(50, 240, 230);
+    margin: 0px 650px ;
+    width: 150px;
+    height: 80px;
+}
+
+
+
